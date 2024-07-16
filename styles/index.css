@@ -8,7 +8,7 @@ nav::after {
     position: absolute; right: -15px; top: 5px;
     content: '';
     display: inline-block;
-    height: 160px; 
+    height: 95px; 
     border-right: 1px solid #0D1773;
 }
 nav a {
@@ -21,7 +21,9 @@ nav a:hover {
 }
 nav a:last-child {margin-bottom: 0;}
 /* 포트폴리오 */
-main {} 
+main {
+    margin: 0 auto; width: 1920px;
+} 
 main .main1_bg {
     max-width: 100%; margin: 0 auto;
     background-image: url(../images/main1_bg.jpg);
@@ -33,10 +35,10 @@ main .main1_bg .left {
     padding-left: 17px; padding-top: 24px;
 }
 main .main1_bg .intro .title {
-    margin-left: 510px;
+    margin-left: 510px; position: relative; top: -60px;
     display: inline-block;
 }
-main .main1_bg .intro .title img {}
+main .main1_bg .intro .title img {width: 100%;}
 /* 마우스 모형 */
 main .main1_bg .intro .mouse {
     text-align: center; margin-top: 180px; padding-bottom: 36px;
@@ -49,9 +51,9 @@ main .main1_bg .intro .mouse .down {
 main .main1_bg .intro .mouse .mouse_img {}
 main .main1_bg .intro .mouse .mouse_img img {}
 /* ================================================= */
-main .main2 {
+main .main2 {/* border: 1px solid red; */
     max-width: 1300px; margin: 0 auto;
-    margin-top: 120px;
+    padding-top: 120px; 
 }
 main .main2 .main2_title {
     text-align: center; margin-bottom: 111px;
@@ -131,9 +133,9 @@ main .main2 .my_introduce .m_i_right .skill .skill_img p img {
 }
 main .main2 .my_introduce .m_i_right .skill .skill_img p img:last-child {margin-right: 0;}
 /* ================================================ */
-main .main3 {
+main .main3 {/* border: 1px solid red; */
     max-width: 1517px; margin: 0 auto;
-    margin-top: 221px;
+    margin-top: 100px; padding-top: 50px;
 }
 main .main3 h2 {
     margin-bottom: 66px;
@@ -148,13 +150,13 @@ main .main3 .app_contents .team_img {
 main .main3 .app_contents .team_img img {}
 main .main3 .app_contents .app_contents_right {}
 main .main3 .app_contents .app_contents_right h4 {
-    font-size: 1.25rem; font-family: 'kameron', serif;
+    font-size: 1.25rem;
     color: #0D1773;
     font-weight: 700; letter-spacing: 0.5px;
     margin-bottom: 10px;
 }
 main .main3 .app_contents .app_contents_right p {
-    font-size: 1.125rem; font-family: 'kameron', serif;
+    font-size: 1.125rem;
     letter-spacing: 0.5px;
     margin-bottom: 5px;
 }
@@ -164,10 +166,15 @@ main .main3 .app_contents .app_contents_right p:nth-child(4){
 }
 main .main3 .app_contents .app_contents_right h5 {
     margin-top: 25px;
-    font-size: 1.125rem; font-family: 'kameron', serif;
+    font-size: 1.125rem;
     color: #0D1773;
     font-weight: 700; letter-spacing: 0.5px;
     margin-bottom: 10px;
 }
 main .main3 .app_contents .app_contents_right p img {margin-right: 20px;}
 main .main3 .app_contents .app_contents_right p img:last-child {margin-right: 0;}
+/* ============================================================================= */
+main .main4 {/* border: 1px solid red; */
+    max-width: 1520px; margin: 0 auto;
+    margin-top: 100px; padding-top: 50px;
+}

@@ -235,3 +235,18 @@ main .main4 .web .swiper .swiper-wrapper .swiper-slide .web_individual .right .b
 }
 main .main4 .web .swiper-button-next {transform: translateX(450%); color: #0D1773;}
 main .main4 .web .swiper-button-prev {transform: translateX(-450%); color: #0D1773;}
+/* =============================================================== */
+main .main5 {
+    max-width: 1520px; margin: 0 auto;
+    margin-top: 100px; padding-top: 50px; padding-bottom: 50px;
+}
+main .main5 h2 {margin-bottom: 66px;}
+main .main5 h2 img {}
+main .main5 .sns_design {}
+main .main5 .sns_design .swiper {}
+main .main5 .sns_design .swiper .swiper-wrapper {}
+main .main5 .sns_design .swiper .swiper-wrapper .slide {
+    margin-right: 60px;
+}
+main .main5 .sns_design .swiper .swiper-wrapper .slide p {}
+main .main5 .sns_design .swiper .swiper-wrapper .slide p img {}

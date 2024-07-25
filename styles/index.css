@@ -173,6 +173,15 @@ main .main3 .app_contents .app_contents_right h5 {
 }
 main .main3 .app_contents .app_contents_right p img {margin-right: 20px;}
 main .main3 .app_contents .app_contents_right p img:last-child {margin-right: 0;}
+main .main3 .app_contents .app_contents_right .result {
+    display: flex; align-items: center;
+    margin-top: 10px;
+}
+main .main3 .app_contents .app_contents_right .result p a {
+    width: 88px; padding: 7.5px 20.5px; margin-right: 25px;
+    border: 1px solid #0D1773; border-radius: 10px;
+    font-size: 0.875rem; font-weight: 500; color: #0D1773;
+}
 /* ============================================================================= */
 main .main4 {/* border: 1px solid red; */
     max-width: 1520px; margin: 0 auto;
@@ -245,8 +254,6 @@ main .main5 h2 img {}
 main .main5 .sns_design {}
 main .main5 .sns_design .swiper {}
 main .main5 .sns_design .swiper .swiper-wrapper {}
-main .main5 .sns_design .swiper .swiper-wrapper .slide {
-    margin-right: 60px;
-}
-main .main5 .sns_design .swiper .swiper-wrapper .slide p {}
-main .main5 .sns_design .swiper .swiper-wrapper .slide p img {}
+main .main5 .sns_design .swiper .swiper-wrapper .swiper-slide {}
+main .main5 .sns_design .swiper .swiper-wrapper .swiper-slide p {}
+main .main5 .sns_design .swiper .swiper-wrapper .swiper-slide p img {width: 100%;}

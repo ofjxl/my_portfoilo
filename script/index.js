@@ -1,4 +1,4 @@
-const web_s = new Swiper('.swiper',{
+const web_s = new Swiper('.web-swiper',{
     autoplay: {delay:2000},
     loop:true,
     navigation:{
@@ -7,6 +7,8 @@ const web_s = new Swiper('.swiper',{
     },
 })
 const sns_s = new Swiper('.sns-swiper',{
-    autoplay: {delay:2000},
-    loop:true,
+    /* autoplay: {delay:2000}, */
+    /* loop:true, */
+    slidesPerView:4,
+    spaceBetween:10,
 })
